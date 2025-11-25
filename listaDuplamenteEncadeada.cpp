@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//teste
 
 typedef struct elemento Elemento;
 struct elemento {
