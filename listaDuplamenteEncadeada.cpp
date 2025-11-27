@@ -110,8 +110,6 @@ void inserePosicao(int valor, int posicao) {
 				novo->proximo = atual;
 				atual->anterior = novo;
 				tmp->proximo = novo;
-				printf("Valor antecessor ao quero inserir %d\n", atual->anterior->valor);
-				printf("Valor proximo ao quero inserir %d\n", atual->proximo->valor);
 			}
 		}
 
